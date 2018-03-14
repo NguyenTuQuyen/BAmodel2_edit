@@ -1,0 +1,112 @@
+#slide{
+	height:306px;
+	margin-bottom: 3px;
+}
+div#feature_list {
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+	width:683px;
+	float:right;
+	margin-top: 3px;
+}
+.timviec{
+	float:left;
+	background: url(images/timviec.png) no-repeat;
+	width: 310px;
+	height: 306px;
+}
+
+ul#tabs {
+	left: 410px;
+	z-index: 2;
+}
+
+ul#tabs li:hover {
+	
+}
+
+ul#tabs li img {
+	float:left; 
+	padding: 5px;
+	background:none;
+	padding:1px; 
+	height: 50px;
+	width: 67px;
+	
+	
+}	
+ul#tabs li{
+	width:273px;
+	height:56px;
+	color:#007037;
+	padding-top: 4px;
+	text-align:justify;
+	display:block;
+}
+ul#tabs li h3{
+	padding-left: 74px;
+	width: 190px;
+	font-size: 12px;
+}
+ul#tabs li.current h3, 
+ul#tabs li:hover h3{
+	color:#FFF;
+}	
+ul#tabs li a {
+	font-size:8pt;
+	color:#007037;
+	text-align:justify;
+	display:block;
+	width:245px;
+}
+
+ul#tabs li a:hover {
+	text-decoration:none;
+	color:#801004;
+}
+
+ul#tabs li.current{
+	background:none repeat scroll 0 0 #2D9037;
+}
+ul#tabs li.current a span{
+	color:#FFFFFF;
+}
+
+ul#output {
+	right: 0;
+	left:0px;
+}
+div#feature_list ul {
+			position: absolute;
+			top: 0px;
+			list-style: none;	
+			padding: 0;
+			margin: 0;
+		}
+ul#output li .text-slider{
+	position:absolute; 
+	bottom:0px; 
+	!top:230px;
+	_top:210px;
+	height:68px; 
+	width:339px;
+	!height:88px; 
+	!width:339px;
+	background: url(bg_trans.png); 
+	!background: url(bg_trans.png);
+	padding: 5px;
+	margin-bottom: 11px;
+}
+
+ul#output li .text-slider a {
+	font-weight: bold;
+	left:1px;
+	!left:1px;  
+	width:344px;
+	!width:344px;
+	padding:5px;
+	!padding:5px;
+	color:#FFF;
+}
+		
